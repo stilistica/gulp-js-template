@@ -1,0 +1,45 @@
+@use "./variables.scss" as s;
+
+body {
+	display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+
+	// background-color: s.$color__main;
+	// color: s.$color__white;
+  // font-family: s.$font__sora;
+}
+
+
+// .card {
+//   width: 300px / 960px *100%;
+//   @extend s.%button;
+//   @extend s.button;
+
+//   &__title { // .card__title
+
+//     &:hover { //.card__title:hover
+
+//     }
+//   }
+
+//   &:hover { // .card:hover
+
+//   }
+
+//   @media (max-width: v.$media_414) {
+//     & { // .card
+
+//     }
+//   }
+// }
+
+// .card__title {
+
+//   .card & { // .card .card__title
+
+//   }
+// }

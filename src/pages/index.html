@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('components/head.html', { "title":"Home" })
+  <body>
+    @@include('components/header.html', {})
+    <main >
+
+      <!-- до папки fonts добавити шрифти woff2, вони конвертуються
+      у фото можна відправляти png, svg, спрайт -->
+
+      
+      <!-- <img width="150" src="@img/image.png" alt="photo" /> -->
+
+      <!-- <svg>
+        <use href="@img/sprite.svg#icon-figma"></use>
+      </svg>
+      <svg>
+        <use href="@img/sprite.svg#icon-cube"></use>
+      </svg> -->
+
+      <!-- <img src="images/photo-375.jpg" 
+      srcset=" 
+      images/photo-375.jpg 375w,
+      images/photo-768.jpg 768w, 
+      images/photo-1440.jpg 1440w 
+      "
+      sizes="
+      (max-width: 375px) 375px, 
+      (max-width: 768px) 768px, 
+      1440px"
+
+      alt="Опис зображення" /> -->
+
+      <!-- <picture>
+        <source media="(min-width: 1440px)" srcset="images/photo-1440.jpg" />
+        <source media="(min-width: 768px)" srcset="images/photo-768.jpg" />
+        <img src="images/photo-375.jpg" alt="Опис зображення" />
+      </picture> -->
+    </main>
+    @@include('components/footer.html', {})
+
+    <script defer src="js/main.min.js"></script>
+  </body>
+</html>
